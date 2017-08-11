@@ -6,6 +6,8 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 #安装vue命令
 cnpm install -g vue-cli
 
+sudo cnpm instal -g vue-cli【MAC 下面有可能没有权限，使用sudo即可】
+
 #测试是否安装成功
 vue
 
@@ -39,3 +41,13 @@ bower info
 #安装vue文件，并且指定文件版本号
 bower install vue#1.0.28
 bower install vue@1.0.28
+
+
+注意点1：
+在mac下面 执行cnpm install -g vue-cli语句的时候，有可能会报错
+错误信息为： 
+Error: EACCES: permission denied, unlink '/usr/local/lib/node_modules/vue-cli/.babelrc'
+ 
+
+
+
