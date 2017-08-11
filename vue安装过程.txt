@@ -1,0 +1,41 @@
+﻿#安装git bash
+
+#安装cnmp镜像
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+#安装vue命令
+cnpm install -g vue-cli
+
+#测试是否安装成功
+vue
+
+#打开文件目录
+邮件 git bush hear
+
+#定位到工作目录，创建项目
+vue init webpack my-first-vue-project
+
+
+#定位到到当前的工作目录，安装依赖
+cnpm install
+
+#运行项目
+npm run dev
+
+
+------------------------------------
+bower 前端包管理器的使用
+
+#注意：！！！！！！！
+当前的文件使用目录，不能有中文字符
+
+
+#安装
+cnpm install -g bower
+
+#查看包信息
+bower info 
+
+#安装vue文件，并且指定文件版本号
+bower install vue#1.0.28
+bower install vue@1.0.28
